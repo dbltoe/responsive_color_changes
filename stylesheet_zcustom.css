@@ -57,6 +57,7 @@
  /* EOF Alignment Changes stylesheet.css */
 
  /* General Settings  */
+/*
 .centerBoxContentsNew {float:left;}
 #wbWrapper img {max-width:50%;}
 #wbWrapper p {text-align:center;margin-top:-12px;font-weight:bold;}
@@ -65,9 +66,10 @@
 .wbTinLeft p {text-align:center;margin-top:-12px;font-weight:bold;}
 .wbTinRight p {text-align:center;margin-top:-12px;font-weight:bold;}
 .wbTinCenter p {text-align:center;margin-top:-12px;font-weight:bold;}
-
+*/
 
 /*  Color Settings  */
+/*
 .wbTinLeft {float:left;width:49%;border:2px groove beige;margin-bottom:8px;background-color:#eeeeee;background-color:rgba(238,238,238,0.5);}
 .wbTinRight {float:right;width:49%;border:2px groove beige;margin-bottom:8px;background-color:#eeeeee;background-color:rgba(238,238,238,0.5);}
 .wbTinCenter {clear:both;margin-left:25%;width:49%;border:2px groove beige;margin-bottom:8px;background-color:#eeeeee;background-color:rgba(238,238,238,0.5);}
@@ -79,3 +81,4 @@ select, input, #attrib-3-0{border:2px groove beige;}
 :disabled{display:none;}
 .email-pot{display:none;}
 #checkoutShipto {float:none;}
+*/
