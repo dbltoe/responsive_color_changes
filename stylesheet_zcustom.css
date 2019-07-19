@@ -1,15 +1,61 @@
 /**
  *
  * @package templateSystem
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @author dbltoe
- * @author dbltoe
- * @version $Id: dbltoe Tue Jul 17 12:13:18 2018 -0500 New in v1.5.5f $
+ * @version $Id: dbltoe Fri Jul 19 12:13:18 2018 -0500 New in v1.5.6x $
  *
  */
- 
+ /* BOF Color Changes jquery.mmenu.all.css */
+
+ /* EOF Color Changes jquery.mmenu.all.css */
+
+ /* BOF Color Changes responsive.css */
+
+ /* EOF Color Changes responsive.css */
+
+ /* BOF Color Changes responsive_default.css */
+
+ /* EOF Color Changes responsive_default.css */
+
+ /* BOF Color Changes responsive_mobile.css */
+
+ /* EOF Color Changes responsive_mobile.css */
+
+ /* BOF Color Changes responsive_tablet.css */
+
+ /* EOF Color Changes responsive_tablet.css */
+
+ /* BOF Color Changes stylesheet.css */
+
+ /* EOF Color Changes stylesheet.css */
+
+ /* BOF Alignment Changes jquery.mmenu.all.css */
+
+ /* EOF Alignment Changes jquery.mmenu.all.css */
+
+ /* BOF Alignment Changes responsive.css */
+
+ /* EOF Alignment Changes responsive.css */
+
+ /* BOF Alignment Changes responsive_default.css */
+
+ /* EOF Alignment Changes responsive_default.css */
+
+ /* BOF Alignment Changes responsive_mobile.css */
+
+ /* EOF Alignment Changes responsive_mobile.css */
+
+ /* BOF Alignment Changes responsive_tablet.css */
+
+ /* EOF Alignment Changes responsive_tablet.css */
+
+ /* BOF Alignment Changes stylesheet.css */
+
+ /* EOF Alignment Changes stylesheet.css */
+
  /* General Settings  */
 .centerBoxContentsNew {float:left;}
 #wbWrapper img {max-width:50%;}
@@ -33,11 +79,3 @@ select, input, #attrib-3-0{border:2px groove beige;}
 :disabled{display:none;}
 .email-pot{display:none;}
 #checkoutShipto {float:none;}
-
-
-/* Multi Ship Code */
-.multiLink {font-family:sans-serif;font-size:1.3em;color:red;font-weight:bold;padding:5px;background-color:#eeeeee;background-color:rgba(238,238,238,0.5);border:4px groove beige;float:left;}
-#multishipLink {display:inline-block;font-family:sans-serif;font-size:1.3em;color:red;padding:5px;background-color:#eeeeee;background-color:rgba(238,238,238,0.5);border:4px groove beige;}
-
-/* Site Background */
-/*html {background:url("../images/pageBackL.jpg") no-repeat fixed center top;background-size:cover;background-color:#e7d8c0;background-color:rgba(224,201,160,0.6);}*/
