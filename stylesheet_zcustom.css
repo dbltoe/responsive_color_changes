@@ -1,0 +1,43 @@
+/**
+ *
+ * @package templateSystem
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @author dbltoe
+ * @author dbltoe
+ * @version $Id: dbltoe Tue Jul 17 12:13:18 2018 -0500 New in v1.5.5f $
+ *
+ */
+ 
+ /* General Settings  */
+.centerBoxContentsNew {float:left;}
+#wbWrapper img {max-width:50%;}
+#wbWrapper p {text-align:center;margin-top:-12px;font-weight:bold;}
+#cartAdd {margin-left:0;float:none;text-align:center;}
+#wbWrapper {text-align:center;}
+.wbTinLeft p {text-align:center;margin-top:-12px;font-weight:bold;}
+.wbTinRight p {text-align:center;margin-top:-12px;font-weight:bold;}
+.wbTinCenter p {text-align:center;margin-top:-12px;font-weight:bold;}
+
+
+/*  Color Settings  */
+.wbTinLeft {float:left;width:49%;border:2px groove beige;margin-bottom:8px;background-color:#eeeeee;background-color:rgba(238,238,238,0.5);}
+.wbTinRight {float:right;width:49%;border:2px groove beige;margin-bottom:8px;background-color:#eeeeee;background-color:rgba(238,238,238,0.5);}
+.wbTinCenter {clear:both;margin-left:25%;width:49%;border:2px groove beige;margin-bottom:8px;background-color:#eeeeee;background-color:rgba(238,238,238,0.5);}
+#productDescription {float:right;width:65%;background-color:#eeeeee;background-color:rgba(238,238,238,0.5);border:4px groove beige;}
+select, input, #attrib-3-0{border:2px groove beige;}
+#productDescription {float:right;width:65%;background-color:#eeeeee;background-color:rgba(238,238,238,0.5);border:4px groove beige;}
+.floatingBox .important .forward{display:none;}
+#attrib-3-0 {float: left;background-color:#eeeeee;background-color:rgba(238,238,238,0.5);}
+:disabled{display:none;}
+.email-pot{display:none;}
+#checkoutShipto {float:none;}
+
+
+/* Multi Ship Code */
+.multiLink {font-family:sans-serif;font-size:1.3em;color:red;font-weight:bold;padding:5px;background-color:#eeeeee;background-color:rgba(238,238,238,0.5);border:4px groove beige;float:left;}
+#multishipLink {display:inline-block;font-family:sans-serif;font-size:1.3em;color:red;padding:5px;background-color:#eeeeee;background-color:rgba(238,238,238,0.5);border:4px groove beige;}
+
+/* Site Background */
+/*html {background:url("../images/pageBackL.jpg") no-repeat fixed center top;background-size:cover;background-color:#e7d8c0;background-color:rgba(224,201,160,0.6);}*/
