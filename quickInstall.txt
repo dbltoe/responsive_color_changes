@@ -1,0 +1,38 @@
+Responsive_Classic Color Changes 2.0.0
+The whole story is available in the index.html file.  This is the quick install, "I'm Brave", "Get r Done" version of installing the changes.
+
+1.  Extract the zip file to your desktop.  It will contain the index.html, quickInstall.txt (this file), readme.md , license.txt, a folder called CSS Files to Upload, and a folder called Color Combos.  The Color Combos folder contains the color combo we used for this install (10687) and four other examples we've used.
+
+2.  Decide on three colors to use for the site.  Make sure you get both the hex code (#000000 is black) and RGB code (0,0,0 is black) for all three colors you will use in your site.  Darkest color is menu and heading colors.  Next lightest is site background.  Lightest color for product page menus etc.
+
+3.  Open stylesheet_colors_split.css in an editor that does NOT add code.  Notepad works fine.
+
+4.  Search and Replace in the stylesheet_colors_split.css.  Search for #6699cc and replace with the hex code for your darkest color.
+
+6.  Search and Replace in the stylesheet_colors_split.css.  Search for 102,153,204 and replace with the RGB code for your darkest color.
+
+7.  Search and Replace in the stylesheet_colors_split.css.  Search for #99ccff and replace with the hex code for your medium color.
+
+8.  Search and Replace in the stylesheet_colors_split.css.  Search for 153,204,255 and replace with the RGB code for your medium color.
+
+9.  Search and Replace in the stylesheet_colors_split.css.  Search for #ccffff and replace with the hex code for your lightest color.
+
+10. Search and Replace in the stylesheet_colors_split.css.  Search for 204,255,255 and replace with the RGB code for your lightest color.
+
+11. Repeat steps 3 thru 10 using stylesheet_zcustom.css
+
+12.  Use the Clone a Template mod available in the Plugins Section (https://www.zen-cart.com/downloads.php?do=file&id=2087) to clone the responsive_classic to a name of your choice (YOUR_TEMPLATE.  This provides a backup in case things go bonkers.
+
+13. Upload the two stylesheet files to the includes/templates/YOUR_TEMPLATE/css folder on your site.
+
+14. In YourAdmin >> Tools >> Template Selection, select the new template.
+
+15. Either delete includes/templates/YOUR_TEMPLATE/stylesheet_colors.css or rename it to something like stylesheet_colors.$$$ where $$$ are your initials.
+
+16. Other than minor tweaks you may want to do to your site, you're done.
+
+We added the stylesheet_zcustom.css file as there are some color changes in other stylesheets and this consolidates them into a separate stylesheet with clarity identification.  We also recommend this stylesheet to make any changes to YOUR_TEMPLATE css.  That way, you'll have easy recall at upgrade time.
+
+TOTALLY OPTIONAL:  When you are done, you may want to consolidate stylesheet_colors_split.css in any way you wish.  It is NOT a requirement.
+
+If you haven't already, please take the time to read the index.html.  It explains everything in detail.
