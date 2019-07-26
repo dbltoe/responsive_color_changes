@@ -1,9 +1,9 @@
 # responsive_color_changes
- Bringing the Responsive_Classic Color Changes to versions 1.5.x
+ Bringing the Responsive_Classic Color Changes to versions 1.5.5x and More
 
 Version Date
 ==============
-v 2.0.0 07.19.2019 121:52:00
+v 2.0.1 07.26.2019 121:52:00
 
 Author
 ======
@@ -42,9 +42,10 @@ Files and Folders in the Packet
 1.  readme.md - This file
 2.  license.txt - License Information
 3.  quickInstall.txt - Quick Install Instructions (if you just can't wait)
-4.  Color Combos - A folder containing the main color combo used with this add-on/modification (10687) and four other examples.
-5.  stylesheet_colors_split.css - This stylesheet is meant to replace the existing stylesheet_colors.css
-6.  stylesheet_zcustom.css - This stylesheet contains all the color/alignment changes rather than change six other stylesheets.
+4.  Color_Combos - A folder containing the main color combo used with this add-on/modification (10687) and four other examples.
+5.  CSS_Files_to_Upload - A folder containing the stylesheets used with this mod.
+		a.  stylesheet_colors_split.css - This stylesheet is meant to replace the existing stylesheet_colors.css
+		b.  stylesheet_zcustom.css - This stylesheet contains all the color/alignment changes rather than change six other stylesheets.
 
 
 Affected files
@@ -74,11 +75,12 @@ Features:
 Install:
 ========
 0. Clone the responsive_classic template using lat9's  Clone a Template mod creating a new template for your site (YOUR_TEMPLATE).
-1. Unzip the Responsive_Classic Color Changes package to your local hard drive, retaining the folder structure.
-2. The Color Combos folder contains the main color theme used with this add-on/modification and four additional optional color combinations.
-3. Edit the stylesheet_colors_split.css and stylesheet_zcustom.css to change the existing colors to match those chosen for YOUR_TEMPLATE.  (see the index.html or quickInstall.txt files for details).
-4. Upload the two stylesheet files to your includes/templates/YOUR_TEMPLATE/css folder.  This should not overwrite any existing stylesheets.
-5. Rename includes/templates/YOUR_TEMPLATE/css/stylesheet_colors.css to includes/templates/TEMPLATE/css/stylesheet_colors.$$$ where $$$ are your initials.
+1. Unzip the Responsive_Classic_Color_Changes package to your local hard drive, retaining the folder structure.
+2. The Color_Combos folder contains the main color theme used with this add-on/modification and four additional optional color combinations.
+3. The CSS_Files_to_Upload folder contains the stylesheets used with this mod.
+4. Edit the stylesheet_colors_split.css and stylesheet_zcustom.css to change the existing colors to match those chosen for YOUR_TEMPLATE.  (see the index.html or quickInstall.txt files for details).
+5. Upload the two stylesheet files to your includes/templates/YOUR_TEMPLATE/css folder.  This should not overwrite any existing stylesheets.
+6. Delete or rename includes/templates/YOUR_TEMPLATE/css/stylesheet_colors.css to includes/templates/TEMPLATE/css/stylesheet_colors.$$$ where $$$ are your initials.
 
 Upgrade:
 ========
@@ -92,4 +94,5 @@ Un-Install:
 
 History
 =======
-v 2.0.0  19.07.2019 14:23   - Initial Version
+v 2.0.0  19.07.2019 14:23   - Initial 1.5.6x Version
+v 2.0.1  26.07.2019 16:38   - Minor Changes for Installation
