@@ -1,11 +1,11 @@
 Responsive_Classic Color Changes 2.0.0
 The whole story is available in the index.html file.  This is the quick install, "I'm Brave", "Get r Done" version of installing the changes.
 
-1.  Extract the zip file to your desktop.  It will contain the index.html, quickInstall.txt (this file), readme.md , license.txt, a folder called CSS Files to Upload, and a folder called Color Combos.  The Color Combos folder contains the color combo we used for this install (10687) and four other examples we've used.
+1.  Extract the zip file to your desktop.  It will contain the index.html, quickInstall.txt (this file), readme.md , license.txt, a folder called CSS Files to Upload, and a folder called Color Combos.  The CSS Files to Upload folder includes the stylesheets used with this mod. The Color Combos folder contains the color combo we used for this install (10687) and four other examples we've used.
 
 2.  Decide on three colors to use for the site.  Make sure you get both the hex code (#000000 is black) and RGB code (0,0,0 is black) for all three colors you will use in your site.  Darkest color is menu and heading colors.  Next lightest is site background.  Lightest color for product page menus etc.
 
-3.  Open stylesheet_colors_split.css in an editor that does NOT add code.  Notepad works fine.
+3.  In the CSS Files to Upload folder, open stylesheet_colors_split.css in an editor that does NOT add code.  Notepad works fine.
 
 4.  Search and Replace in the stylesheet_colors_split.css.  Search for #6699cc and replace with the hex code for your darkest color.
 
@@ -23,7 +23,7 @@ The whole story is available in the index.html file.  This is the quick install,
 
 12.  Use the Clone a Template mod available in the Plugins Section (https://www.zen-cart.com/downloads.php?do=file&id=2087) to clone the responsive_classic to a name of your choice (YOUR_TEMPLATE.  This provides a backup in case things go bonkers.
 
-13. Upload the two stylesheet files to the includes/templates/YOUR_TEMPLATE/css folder on your site.
+13. Upload the two stylesheet files from the CSS Files to Upload folder to the includes/templates/YOUR_TEMPLATE/css folder on your site.
 
 14. In YourAdmin >> Tools >> Template Selection, select the new template.
 
