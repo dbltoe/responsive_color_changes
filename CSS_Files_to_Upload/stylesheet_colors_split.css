@@ -10,7 +10,7 @@ h2.greeting a {color:#000;}
 .centerBoxContentsFeatured a {color:#333;}
 .centerBoxContentsSpecials a {color:#333;}
 .centerBoxContentsNew a {color:#333;}
-#navMain ul li a {color: #fff; color:rgba(255,255,255,1.0);}
+#navMain ul li a {color: #000; color:rgba(0,0,0,1.0);}
 #navEZPagesTop li a {color:#000;}
 .pagination li a {color: #000;}
 #navCatTabs li a {color: #000;}
@@ -145,7 +145,7 @@ TR.tableHeading {color: #fff;}
 #myAccountShipInfo h4 {color: #fff;}
 input.submit_button {color: #000;}
 input.cssButtonHover {color: #fff;}
-.normal_button {color: #fff;}
+.normal_button {color: #000;}
 .cartNewItem {color:#33cc33;}
 .productSpecialPrice {color:#ff0000;}
 .productSalePrice {color:#ff0000;}
@@ -263,7 +263,7 @@ select {background-color:#eee;background-color:rgba(238,238,238,0.5);}
 HR {border-bottom:1px solid #6699cc;}
 input {border:3px solid #6699cc;}
 textarea {border:3px solid #ccc;}
-#navMain ul li {border-right:1px solid #fff;}
+#navMain ul li {border-right:1px solid #000;}
 #navCatTabs li {border-left: 1px solid #05919f;}
 #navCatTabs ul li:last-child {border-right:1px solid #05919f;}
 #navSupp li {border-left: 1px solid #555;}
