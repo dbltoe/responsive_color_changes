@@ -1,9 +1,9 @@
 # responsive_color_changes
- Bringing the Responsive_Classic Color Changes to versions 1.5.5x and More
+ Bringing the Responsive_Classic Color Changes to Versions 1.5.5x and More
 
 Version Date
 ==============
-v 2.0.1 07.26.2019 121:52:00
+v 2.1.0 01.06.2020  20:25:00
 
 Author
 ======
@@ -17,7 +17,7 @@ lat9 for the Clone a Template mod
 
 Description
 ===========
-This add-on/modification contains files needed to assist in Responsive Color Changes for Zen Cart Versions 1.5.x.
+This add-on/modification contains files needed to assist in Color Changes for Zen Cart's Responsive_Classic Template for Versions 1.5.x.
 
 Zen-Cart Versions
 ================
@@ -94,5 +94,6 @@ Un-Install:
 
 History
 =======
-v 2.0.0  19.07.2019 14:23   - Initial 1.5.6x Version
-v 2.0.1  26.07.2019 16:38   - Minor Changes for Installation
+v 2.0.0  19.07.2019 14:23  -  Initial 1.5.6x Version
+v 2.0.1  26.07.2019 16:38  -  Clarification of Installation
+v 2.1.0  06.01.2020 20:25  -  New variable method of changing colors for the theme.

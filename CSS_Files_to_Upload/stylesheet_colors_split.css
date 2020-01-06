@@ -1,93 +1,117 @@
+/* Define the theme colors to be used throughout the responsive_classic template.
+This does not affect the standard notification font, link, hover, etc. colors of the cart.
+There are two text and form colors to assist in theme contrast when different colors are selected.
+An example of Complementary Color Schemes is available at https://w3schools.com/colors/colors_complementary.asp*/
+:root {
+	--color-main: #6699CC;/* Background Color for most wrappers, headings and buttons in hex. */
+	--color-main-rgb: 102,153,204;/* Background Color for most wrappers, headings and buttons in rgb. */
+	--color-second: #99CCFF;/* Background Color for Main Wrapper in hex. */
+	--color-second-rgb: 153,204,255;/* Background Color for  in rgb. */
+	--color-third: #CCFFFF;/* Background Color for  in hex. */
+	--color-third-rgb: 204,255,255;/* Background Color for  in rgb. */
+	--color-text3: #333333;/*Text color for specific hovers.*/
+	--color-warn: #CC6600;/* Background Color for warnings in hex. */
+	--color-warn-rgb: 204,102,0;/* Background Color for warnings in rgb. */
+	--color-error: #CC3333;/* Background Color for errors and some hover notifications in hex. */
+	--color-error-rgb: 204,51,51;/* Background Color for error notifications in rgb. */
+	--color-form1: #DCDCDC;/* Background Color for  in hex. */
+	--color-form1-rgb: 220,220,220;/* Background Color for  in rgb. */
+	--color-form2: #EEEEEE;/* Background Color for  in hex. */
+	--color-form2-rgb: 238,238,238;/* Background Color for  in rgb. */
+	--color-text1: #FFFFFF;/* Text Color for light text in hex. */
+	--color-text2: #000000;/* Text Color for  dark text in hex. */
+}
+
 /* a link tags and their colors */
-a:link {color:#000;}
-#navEZPagesTOC ul li a {color:#000;}
-h2.greeting a {color:#000;}
-.categoryListBoxContents a {color:#000;}
-#siteinfoLegal a {color:#000;}
-.itemTitle a {color:#000;}
-.specialsListBoxContents a {color:#333;}
-.centerBoxContentsAlsoPurch a {color:#333;}
-.centerBoxContentsFeatured a {color:#333;}
-.centerBoxContentsSpecials a {color:#333;}
-.centerBoxContentsNew a {color:#333;}
-#navMain ul li a {color: #000; color:rgba(0,0,0,1.0);}
-#navEZPagesTop li a {color:#000;}
-.pagination li a {color: #000;}
-#navCatTabs li a {color: #000;}
-#navSupp li a {color: #000;}
-h3.rightBoxHeading a {color: #000;}
-h3.leftBoxHeading a {color: #000;}
-.navSplitPagesLinks a {color: #fff;}
-.productListing-rowheading a {color: #fff;}
-a.list-more {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-.navSplitPagesLinks a {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
+a:link {color:var(--color-text2);}
+#navEZPagesTOC ul li a {color:var(--color-text2);}
+h2.greeting a {color:var(--color-text2);}
+.categoryListBoxContents a {color:var(--color-text2);}
+#siteinfoLegal a {color:var(--color-text2);}
+.itemTitle a {color:var(--color-text2);}
+.specialsListBoxContents a {color:var(--color-text3);}
+.centerBoxContentsAlsoPurch a {color:var(--color-text3);}
+.centerBoxContentsFeatured a {color:var(--color-text3);}
+.centerBoxContentsSpecials a {color:var(--color-text3);}
+.centerBoxContentsNew a {color:var(--color-text3);}
+#navMain ul li a {color:var(--color-text1); color:rgba(var(--color-text1-rgb),1.0);}
+#navEZPagesTop li a {color:var(--color-text2);}
+.pagination li a {color:var(--color-text2);}
+#navCatTabs li a {color:var(--color-text2);}
+#navSupp li a {color:var(--color-text2);}
+h3.rightBoxHeading a {color:var(--color-text2);}
+h3.leftBoxHeading a {color:var(--color-text2);}
+.navSplitPagesLinks a {color:var(--color-text1);}
+.productListing-rowheading a {color:var(--color-text1);}
+a.list-more {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+.navSplitPagesLinks a {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
 
 /* a hover tags and their colors */
-a:hover {color:#cc3333;}
-#navEZPagesTOC ul li a:hover {color:#cc3333;}
-#navEZPageNextPrev i:hover, .navNextPrevList i:hover{color:#cc3333;}
-#navMain ul li a:hover {color:#cc3333;}
-#navSupp ul li a:hover {color:#cc3333;}
-h3.rightBoxHeading a:hover {color:#cc3333;}
-h3.leftBoxHeading a:hover {color:#cc3333;}
-.itemTitle a:hover {color:#cc3333;}
-h2.greeting a:hover {color:#cc3333;}
-.blue:hover {color:#cc3333;} /*important*/
-#navCatTabs li a:hover {color: #cc3333;}
-#navCatTabs li:hover {color: #cc3333;}
-#siteinfoLegal a:hover {color: #cc3333;}
-input.submit_button:hover {color: #cc3333;}
-.categoryListBoxContents a:hover {background-color:#eee;background-color:rgba(238,238,238,0.5);}
-.specialsListBoxContents:hover {background-color:#eee;background-color:rgba(238,238,238,0.5);}
-.centerBoxContentsSpecials:hover {background-color:#eee;background-color:rgba(238,238,238,0.5);}
-.centerBoxContentsAlsoPurch:hover {background-color:#eee;background-color:rgba(238,238,238,0.5);}
-.centerBoxContentsFeatured:hover {background-color:#eee;background-color:rgba(238,238,238,0.5);}
-.centerBoxContentsNew:hover {background-color:#eee;background-color:rgba(238,238,238,0.5);}
-.categoryListBoxContents:hover {background-color:#eee;background-color:rgba(238,238,238,0.5);}
-.sideBoxContentItem:hover {background-color:#eee;background-color:rgba(238,238,238,0.5);}
-ul.list-links li:hover {background:#eee;}
-ol.list-links li:hover {background:#eee;}
-.productListing-even:hover {background-color:#eee;background-color:rgba(238,238,238,0.8);}
-.productListing-odd:hover {background-color:#eee;background-color:rgba(238,238,238,0.3);}
+a:hover {color:var(--color-error);}
+#navEZPagesTOC ul li a:hover {color:var(--color-error);}
+#navEZPageNextPrev i:hover, .navNextPrevList i:hover{color:var(--color-error);}
+#navMain ul li a:hover {color:var(--color-error);}
+#navSupp ul li a:hover {color:var(--color-error);}
+h3.rightBoxHeading a:hover {color:var(--color-error);}
+h3.leftBoxHeading a:hover {color:var(--color-error);}
+.itemTitle a:hover {color:var(--color-error);}
+h2.greeting a:hover {color:var(--color-error);}
+.blue:hover {color:var(--color-error);} /*important*/
+#navCatTabs li a:hover {color:var(--color-error);}
+#navCatTabs li:hover {color:var(--color-error);}
+#siteinfoLegal a:hover {color:var(--color-error);}
+input.submit_button:hover {color:var(--color-error);}
+.categoryListBoxContents a:hover {background-color:var(--color-form2);background-color:rgba(var(--color-form2-rgb),0.5);}
+.specialsListBoxContents:hover {background-color:var(--color-form2);background-color:rgba(var(--color-form2-rgb),0.5);}
+.centerBoxContentsSpecials:hover {background-color:var(--color-form2);background-color:rgba(var(--color-form2-rgb),0.5);}
+.centerBoxContentsAlsoPurch:hover {background-color:var(--color-form2);background-color:rgba(var(--color-form2-rgb),0.5);}
+.centerBoxContentsFeatured:hover {background-color:var(--color-form2);background-color:rgba(var(--color-form2-rgb),0.5);}
+.centerBoxContentsNew:hover {background-color:var(--color-form2);background-color:rgba(var(--color-form2-rgb),0.5);}
+.categoryListBoxContents:hover {background-color:var(--color-form2);background-color:rgba(var(--color-form2-rgb),0.5);}
+.sideBoxContentItem:hover {background-color:var(--color-form2);background-color:rgba(var(--color-form2-rgb),0.5);}
+ul.list-links li:hover {background:var(--color-form2);}
+ol.list-links li:hover {background:var(--color-form2);}
+.productListing-even:hover {background-color:var(--color-form2);background-color:rgba(var(--color-form2-rgb),0.8);}
+.productListing-odd:hover {background-color:var(--color-form2);background-color:rgba(var(--color-form2-rgb),0.3);}
 .productListing-rowheading a:hover {background:none;}
-.button_more_reviews:hover {background:#333;}
-.button_read_reviews:hover {background:#333;}
-#navSupp li a:hover {background-color:#ccffff;background-color:rgba(204,255,255,0.6);}
-#navEZPagesTop li a:hover {background-color:#ccffff;background-color:rgba(204,255,255,0.6);}
+.button_more_reviews:hover {background:var(--color-text3);}
+.button_read_reviews:hover {background:var(--color-text3);}
+#navSupp li a:hover {background-color:var(--color-third);background-color:rgba(var(--color-third-rgb)0.6);}
+#navEZPagesTop li a:hover {background-color:var(--color-third);background-color:rgba(var(--color-third-rgb)0.6);}
 .pagination li a:hover {background:#777;}
 .navSplitPagesLinks a:hover {background:#999;}
 /*.list-more:hover {background:#05a5cb;}*/
 .button_goto_prod_details:hover {background:#05a5cb;} /*important*/
-#navCatTabs li a:hover {background-color:#ccffff;background-color:rgba(204,255,255,0.6);}
-input.submit_button:hover {background:#ccffff;}
-input.cssButtonHover {background:#99ccff;}
-.normal_button:hover {background:#6699cc;}
+#navCatTabs li a:hover {background-color:var(--color-third);background-color:rgba(var(--color-third-rgb)0.6);}
+input.submit_button:hover {background:var(--color-third);}
+input.cssButtonHover {background:var(--color-second);}
+.normal_button:hover {background:var(--color-main);}
 
 
 /* a visited tags and their colors */
-.sideBoxContent a:visited {color:#cc3333;}
-#navBreadCrumb a:visited {color:#cc3333;}
-a:visited {color:#cc3333;}
+.sideBoxContent a:visited {color:var(--color-error);}
+#navBreadCrumb a:visited {color:var(--color-error);}
+a:visited {color:var(--color-error);}
 
 
 /* a active and its color */
-a:active {color:#0000ff;}
+a:active {color:var(--color-text2)0ff;}
 
 
 /* focus colors */
-input:focus {background:#eee;}
-input:focus {background:#eee;}
-select:focus {background:#eee;}
-textarea:focus {background:#eee;}
+input:focus {background:var(--color-form2);}
+input:focus {background:var(--color-form2);}
+select:focus {background:var(--color-form2);}
+textarea:focus {background:var(--color-form2);}
 
 
 
 /* bof font colors */
-body {color:#000;}
-.messageStackSuccess {color:#000;}
-.messageStackCaution {color:#cc6600;}
-#tagline {color:#000;}
-#productQuantityDiscounts table {color:#000;}
+body {color:var(--color-text2);}
+.messageStackSuccess {color:var(--color-text2);}
+.messageStackCaution {color:var(--color-warn);}
+#tagline {color:var(--color-text2);}
+#productQuantityDiscounts table {color:var(--color-text2);}
 #fieldset fieldset legend {color:#05a5cb;}
 .cartTotalDisplay {color:#05a5cb;}
 .cartOldItem {color:#05a5cb;}
@@ -97,10 +121,10 @@ body {color:#000;}
 .centerBoxContentsFeatured {color:#05a5cb;}
 .centerBoxContentsNew {color:#05a5cb;}
 .list-price {color:#05a5cb;}
-h2.greeting {color:#000;}
+h2.greeting {color:var(--color-text2);}
 icon {color:#05a5cb;}
-h1 {color:#000;}
-.header .fa-bars {color: #FFF; color:rgba(255,255,255,1.0);}
+h1 {color:var(--color-text2);}
+.header .fa-bars {color:var(--color-text1); color:rgba(var(--color-text1-rgb),1.0);}
 .cat-count {color:#666;}
 h2 {color:#444;}
 h3 {color:#444;}
@@ -108,161 +132,162 @@ h3 {color:#444;}
 #cart-box {color:#444;}
 .blue {color:#05a5cb;} /*important*/
 .alert {color: #8b0000;}
-legend {color:#333;}
-.productPriceDiscount {color:#333;}
-.messageStackWarning {color: #000;}
-.messageStackError {color: #000;}
-#navMainWrapper {color: #000;}
-#navCatTabsWrapper {color: #000;}
-#navEZPagesTop {color: #000;}
-#navSuppWrapper {color: #000;}
-#siteinfoIP {color: #000;}
-#siteinfoLegal {color: #000;}
-#bannerSix {color: #000;}
-h2.centerBoxHeading {color: #000;}
-h3.rightBoxHeading {color: #000;background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-h3.leftBoxHeading {color: #000;}
-.seDisplayedAddressLabel {color: #fff;}
-TR.tableHeading {color: #fff;}
-#shippingEstimatorContent h2 {color: #fff;}
-#shippingEstimatorContent th {color: #fff;}
-#checkoutConfirmDefault .cartTableHeading {color: #fff;}
-#filter-wrapper {color: #fff;}
-.current {color: #fff;}
-.prod-list-wrap {color: #000;}
-#productQuantityDiscounts table tr:first-child td {color: #fff;}
-#reviewsWriteHeading {color: #fff;}
-#sendSpendWrapper h2 {color: #fff;}
-#accountDefault #sendSpendWrapper h2 {color: #fff;}
-#gvFaqDefaultSubHeading {color: #fff;}
-#checkoutPayAddressDefaultAddress {color: #fff;}
-#checkoutShipAddressDefaultAddress {color: #fff;}
-#accountLinksWrapper h2 {color: #fff;}
-#addressBookDefaultPrimary h2{color: #fff;}
-#myAccountPaymentInfo h3 {color: #fff;}
-#myAccountShipInfo h3 {color: #fff;}
-#myAccountPaymentInfo h4 {color: #fff;}
-#myAccountShipInfo h4 {color: #fff;}
-input.submit_button {color: #000;}
-input.cssButtonHover {color: #fff;}
-.normal_button {color: #000;}
-.cartNewItem {color:#c33;}
+legend {color:var(--color-text3);}
+.productPriceDiscount {color:var(--color-text3);}
+.messageStackWarning {color:var(--color-text2);}
+.messageStackError {color:var(--color-text2);}
+#navMainWrapper {color:var(--color-text2);}
+#navCatTabsWrapper {color:var(--color-text2);}
+#navEZPagesTop {color:var(--color-text2);}
+#navSuppWrapper {color:var(--color-text2);}
+#siteinfoIP {color:var(--color-text2);}
+#siteinfoLegal {color:var(--color-text2);}
+#bannerSix {color:var(--color-text2);}
+h2.centerBoxHeading {color:var(--color-text2);}
+h3.rightBoxHeading {color:var(--color-text2);background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+h3.leftBoxHeading {color:var(--color-text2);}
+.seDisplayedAddressLabel {color:var(--color-text1);}
+TR.tableHeading {color:var(--color-text1);}
+#shippingEstimatorContent h2 {color:var(--color-text1);}
+#shippingEstimatorContent th {color:var(--color-text1);}
+#checkoutConfirmDefault .cartTableHeading {color:var(--color-text1);}
+#filter-wrapper {color:var(--color-text1);}
+.current {color:var(--color-text1);}
+.prod-list-wrap {color:var(--color-text2);}
+#productQuantityDiscounts table tr:first-child td {color:var(--color-text1);}
+#reviewsWriteHeading {color:var(--color-text1);}
+#sendSpendWrapper h2 {color:var(--color-text1);}
+#accountDefault #sendSpendWrapper h2 {color:var(--color-text1);}
+#gvFaqDefaultSubHeading {color:var(--color-text1);}
+#checkoutPayAddressDefaultAddress {color:var(--color-text1);}
+#checkoutShipAddressDefaultAddress {color:var(--color-text1);}
+#accountLinksWrapper h2 {color:var(--color-text1);}
+#addressBookDefaultPrimary h2{color:var(--color-text1);}
+#myAccountPaymentInfo h3 {color:var(--color-text1);}
+#myAccountShipInfo h3 {color:var(--color-text1);}
+#myAccountPaymentInfo h4 {color:var(--color-text1);}
+#myAccountShipInfo h4 {color:var(--color-text1);}
+input.submit_button {color:var(--color-text2);}
+input.cssButtonHover {color:var(--color-text1);}
+.normal_button {color:var(--color-text1);}
+.cartNewItem {color:#33cc33;}
 .productSpecialPrice {color:#ff0000;}
 .productSalePrice {color:#ff0000;}
 .productSpecialPriceSale {color:#ff0000;}
 .productPriceDiscount {color:#ff0000;}
-.list-more {color:#fff;} /*important*/
+.list-more {color:var(--color-text1);} /*important*/
 
 
 /*bof background colors  - dbltoe */
 body {background:none;}
+#mainWrapper {background-color:var(--color-second);background-color:rgba(var(--color-second-rgb),0.6);}
 #headerWrapper {background:none;}
 #logoWrapper {background:none;}
-#cartBoxListWrapper {background:#fff;}
-#ezPageBoxList {background:#fff;}
-#cartBoxListWrapper ul {background:#fff;}
-#ezPageBoxList ul {background:#fff;}
-#popupAdditionalImage {background:#fff;}
+#cartBoxListWrapper {background:var(--color-text1);}
+#ezPageBoxList {background:var(--color-text1);}
+#cartBoxListWrapper ul {background:var(--color-text1);}
+#ezPageBoxList ul {background:var(--color-text1);}
+#popupAdditionalImage {background:var(--color-text1);}
 #contentMainWrapper {background:none;}
 .sideBoxContent {background:none;}
-.rightBoxContent {background:#fff;}
-.rowOdd {background-color: #6699cc;background-color: rgba(102,153,204, 0.2);}
-#productQuantityDiscounts table {background:#fff;}
+.rightBoxContent {background:var(--color-text1);}
+.rowOdd {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb), 0.2);}
+#productQuantityDiscounts table {background:var(--color-text1);}
 #accountLinksWrapper {background:none;}
-.productListing-odd {background-color:#eee;background-color:rgba(238,238,238,0.5);}
-#pinfo-right {background-color:#eee;background-color:rgba(238,238,238,0.5);}
+.productListing-odd {background-color:var(--color-form2);background-color:rgba(var(--color-form2-rgb),0.5);}
+#pinfo-right {background-color:var(--color-form2);background-color:rgba(var(--color-form2-rgb),0.5);}
 #sendSpendWrapper {background:#f4f4f4;}
 .messageStackCaution {background-color:#ffff66;}
-/*fieldset {background:#eee;}*/
+/*fieldset {background:var(--color-form2);}*/
 .rowEven {background:none;}
-#shippingEstimatorContent tr:nth-child(odd) {background:#eee;}
+#shippingEstimatorContent tr:nth-child(odd) {background:var(--color-form2);}
 #order-comments {background:none;}
-#no-products {background:#eee;}
-.listing-wrapper:nth-child(odd) {background:#eee;}
-#reviews-write-wrapper {background:#eee;}
+#no-products {background:var(--color-form2);}
+.listing-wrapper:nth-child(odd) {background:var(--color-form2);}
+#reviews-write-wrapper {background:var(--color-form2);}
 #gvFaqDefaultContent {background:none;}
-#checkoutPayAddressDefault .instructions {background:#eee;}
-#checkoutShipAddressDefault .instructions {background:#eee;}
-#addressBookDefault .instructions {background:#eee;}
+#checkoutPayAddressDefault .instructions {background:var(--color-form2);}
+#checkoutShipAddressDefault .instructions {background:var(--color-form2);}
+#addressBookDefault .instructions {background:var(--color-form2);}
 #myAccountNotify {background:none;}
 #myAccountGen {background:none;}
-.reviews-wrapper {background:#eee;}
-#accountHistInfo table td {background:#eee;}
-#prevOrders td {background:#eee;}
-#myAccountPaymentInfo {background:#eee;}
-#myAccountShipInfo {background:#eee;}
-#accountDefault #sendSpendWrapper {background:#eee;}
+.reviews-wrapper {background:var(--color-form2);}
+#accountHistInfo table td {background:var(--color-form2);}
+#prevOrders td {background:var(--color-form2);}
+#myAccountPaymentInfo {background:var(--color-form2);}
+#myAccountShipInfo {background:var(--color-form2);}
+#accountDefault #sendSpendWrapper {background:var(--color-form2);}
 .tableHeading {background-color:#e9e9e9;}
 #navEZPagesTOCWrapper {background:#ddd;}
 .cartBoxTotal {background:#ddd;}
 #productQuantityDiscounts tr:nth-child(even) {background:#ddd;}
-#orderTotals {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-legend {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
+#orderTotals {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+legend {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
 #cart-box {background: none;}
-#navMainWrapper {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#navSuppWrapper {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#shippingEstimatorContent h2 {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-.cartTotalsDisplay.important {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#checkoutConfirmDefault .cartTableHeading {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-.list-more {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#sendSpendWrapper h2 {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#accountDefault #sendSpendWrapper h2 {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#gvFaqDefaultSubHeading {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#checkoutPayAddressDefaultAddress {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#checkoutShipAddressDefaultAddress {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#accountLinksWrapper h2 {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#addressBookDefaultPrimary h2 {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#reviewsWriteHeading {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#myAccountPaymentInfo h3 {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#myAccountShipInfo h3 {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-.cssButton.normal_button.button.button_more_reviews {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-.cssButton.normal_button.button.button_read_reviews {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-.rightBoxHeading {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-.leftBoxHeading {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-.centerBoxHeading {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
+#navMainWrapper {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#navSuppWrapper {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#shippingEstimatorContent h2 {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+.cartTotalsDisplay.important {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#checkoutConfirmDefault .cartTableHeading {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+.list-more {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#sendSpendWrapper h2 {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#accountDefault #sendSpendWrapper h2 {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#gvFaqDefaultSubHeading {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#checkoutPayAddressDefaultAddress {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#checkoutShipAddressDefaultAddress {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#accountLinksWrapper h2 {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#addressBookDefaultPrimary h2 {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#reviewsWriteHeading {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#myAccountPaymentInfo h3 {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#myAccountShipInfo h3 {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+.cssButton.normal_button.button.button_more_reviews {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+.cssButton.normal_button.button.button_read_reviews {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+.rightBoxHeading {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+.leftBoxHeading {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+.centerBoxHeading {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
 .cssButton.normal_button.button.button_logoff {background:#666;}
 .cssButton.normal_button.button.small_edit {background:#666;}
-#navEZPagesTop {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-.seDisplayedAddressLabel {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-TR.tableHeading {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-.prod-list-wrap {background-color:#6699cc;background-color:rgba(102,153,204,0.4);}
-#myAccountPaymentInfo h4 {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#myAccountShipInfo h4 {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#siteinfoIP {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#siteinfoLegal {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#bannerSix {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
+#navEZPagesTop {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+.seDisplayedAddressLabel {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+TR.tableHeading {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+.prod-list-wrap {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.4);}
+#myAccountPaymentInfo h4 {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#myAccountShipInfo h4 {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#siteinfoIP {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#siteinfoLegal {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#bannerSix {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
 .messageStackWarning {background-color:#8b0000;}
-.messageStackError {background-color:#cc6600;}
+.messageStackError {background-color:var(--color-warn);}
 .messageStackSuccess {background-color:#99ff99;}
-#shippingEstimatorContent th {background-color:#6699cc;background-color:rgba(102,153,204,0.2);}
-.productListing-rowheading {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
+#shippingEstimatorContent th {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.2);}
+.productListing-rowheading {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
 #productQuantityDiscounts table tr:first-child td {background:#999;}
-#navCatTabsWrapper {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
+#navCatTabsWrapper {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
 .current {background-color:#024150;background-color:rgba(2,65,80,0.6);}
-.productListing-rowheading a {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
+.productListing-rowheading a {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
 input.submit_button {  }
-.normal_button {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
-#filter-wrapper {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
+.normal_button {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
+#filter-wrapper {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
 .cssButton.normal_button.button.button_goto_prod_details {background:#000;}
 #docGeneralDisplay pinfo-right {background:none;}
-#popupShippingEstimator {background-color:#99ccff;background-color:rgba(153,204,255,0.6);}
-#popupSearchHelp {background-color:#99ccff;background-color:rgba(153,204,255,0.6);}
+#popupShippingEstimator {background-color:var(--color-second);background-color:rgba(var(--color-second-rgb),0.6);}
+#popupSearchHelp {background-color:var(--color-second);background-color:rgba(var(--color-second-rgb),0.6);}
 #popupAdditionalImage {background:none;}
-#popupImage {background-color:#99ccff;background-color:rgba(153,204,255,0.6);}
-#popupCVVHelp {background-color:#99ccff;background-color:rgba(153,204,255,0.6);}
-#popupCouponHelp {background-color:#99ccff;background-color:rgba(153,204,255,0.6);}
-#popupAtrribsQuantityPricesHelp {background-color:#99ccff;background-color:rgba(153,204,255,0.6);}
-#infoShoppingCart {background-color:#99ccff;background-color: rgba(153,204,255,0.6);}
-input[type=text] {background-color: #eee;background-color: rgba(238,238,238,0.8);}
-select {background-color:#eee;background-color:rgba(238,238,238,0.5);}
-.orderHistoryHeading tr {background-color:#dcdcdc;background-color:rgba(220,220,220,0.6);}
-#navMainSearch1 {background-color:#6699cc;background-color:rgba(102,153,204,0.6);}
+#popupImage {background-color:var(--color-second);background-color:rgba(var(--color-second-rgb),0.6);}
+#popupCVVHelp {background-color:var(--color-second);background-color:rgba(var(--color-second-rgb),0.6);}
+#popupCouponHelp {background-color:var(--color-second);background-color:rgba(var(--color-second-rgb),0.6);}
+#popupAtrribsQuantityPricesHelp {background-color:var(--color-second);background-color:rgba(var(--color-second-rgb),0.6);}
+#infoShoppingCart {background-color:var(--color-second);background-color:rgba(var(--color-second-rgb),0.6);}
+input[type=text] {background-color: #eee;background-color:rgba(var(--color-form2-rgb),0.8);}
+select {background-color:var(--color-form2);background-color:rgba(var(--color-form2-rgb),0.5);}
+.orderHistoryHeading tr {background-color:var(--color-form1);background-color:rgba(var(--color-form1-rgb),0.6);}
+#navMainSearch1 {background-color:var(--color-main);background-color:rgba(var(--color-main-rgb),0.6);}
 
 /*bof border colors*/
-HR {border-bottom:1px solid #6699cc;}
-input {border:3px solid #6699cc;}
+HR {border-bottom:1px solid var(--color-main);}
+input {border:3px solid var(--color-main);}
 textarea {border:3px solid #ccc;}
-#navMain ul li {border-right:1px solid #000;}
+#navMain ul li {border-right:1px solid var(--color-text1);}
 #navCatTabs li {border-left: 1px solid #05919f;}
 #navCatTabs ul li:last-child {border-right:1px solid #05919f;}
 #navSupp li {border-left: 1px solid #555;}
@@ -273,7 +298,7 @@ textarea {border:3px solid #ccc;}
 #siteinfoIP {border:1px solid #666;}
 #siteinfoLegal {border:1px solid #666;}
 #bannerSix {border:1px solid #666;}
-#cartBoxListWrapper li {background-color:#dcdcdc;background-color:rgba(220,220,220,0.6);border-bottom:3px solid #f5f5f5;}
+#cartBoxListWrapper li {background-color:var(--color-form1);background-color:rgba(var(--color-form1-rgb),0.6);border-bottom:3px solid #f5f5f5;}
 .orderHistList li {border-bottom:3px solid #f5f5f5;}
 ul.list-links li {border-bottom:3px solid #f5f5f5;}
 ol.list-links li {border-bottom:1px solid #ddd;}
@@ -281,9 +306,9 @@ ol.list-links li {border-bottom:1px solid #ddd;}
 .tableHeading TH {border-bottom:1px solid #ccc;}
 #cartSubTotal {border-top: 3px solid #ddd;}
 #productQuantityDiscounts td {border-right:1px solid #eee;}
-#seQuoteResults td {border: 1px solid #000;}
-.listBoxContentTable td {border: 1px solid #000;}
-.tableBorder1 td {border: 1px solid #000;}
+#seQuoteResults td {border: 1px solid var(--color-text2);}
+.listBoxContentTable td {border: 1px solid var(--color-text2);}
+.tableBorder1 td {border: 1px solid var(--color-text2);}
 
 /*bof placeholders*/
 ::-moz-placeholder {color: #d01;}
