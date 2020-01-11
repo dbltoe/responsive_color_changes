@@ -9,31 +9,6 @@
  *
  */
  
-/* BOF Define the theme colors to be used throughout the responsive_classic template.
-This does not affect the standard notification font, link, hover, etc. colors of the cart.
-There are two text and form colors to assist in theme contrast when different colors are selected.
-An example of Complementary Color Schemes is available at https://w3schools.com/colors/colors_complementary.asp*/
-:root {
-	--color-main: #6699CC;/* Background Color for most wrappers, headings and buttons in hex. */
-	--color-main-rgb: 102,153,204;/* Background Color for most wrappers, headings and buttons in rgb. */
-	--color-second: #99CCFF;/* Background Color for Main Wrapper in hex. */
-	--color-second-rgb: 153,204,255;/* Background Color for  in rgb. */
-	--color-third: #CCFFFF;/* Background Color for  in hex. */
-	--color-third-rgb: 204,255,255;/* Background Color for  in rgb. */
-	--color-text3: #333333;/*Text color for specific hovers.*/
-	--color-warn: #CC6600;/* Background Color for warnings in hex. */
-	--color-warn-rgb: 204,102,0;/* Background Color for warnings in rgb. */
-	--color-error: #CC3333;/* Background Color for errors and some hover notifications in hex. */
-	--color-error-rgb: 204,51,51;/* Background Color for error notifications in rgb. */
-	--color-form1: #DCDCDC;/* Background Color for  in hex. */
-	--color-form1-rgb: 220,220,220;/* Background Color for  in rgb. */
-	--color-form2: #EEEEEE;/* Background Color for  in hex. */
-	--color-form2-rgb: 238,238,238;/* Background Color for  in rgb. */
-	--color-text1: #FFFFFF;/* Text Color for light text in hex. */
-	--color-text2: #000000;/* Text Color for  dark text in hex. */
-}
-/* EOF Define Site Colors */
-
  /* BOF Color Changes jquery.mmenu.all.css  (for menu in mobile view) */
 	.mm-menu.mm-theme-dark, .header {background:none !important;}
 	.mm-menu.mm-theme-dark, .header {background-color:var(--color-main) !important;background-color:rgba(var(--color-main-rgb),0.6) !important;}
